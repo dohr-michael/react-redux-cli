@@ -2,14 +2,6 @@ const snake         = require( 'snake-case' ),
       applyTemplate = require( './apply-template' );
 
 
-function replaceStr( value, consts ) {
-    return Object.keys( consts ).reduce( ( acc, c ) => acc.replace( c, consts[ c ] ), value );
-}
-
-const templateFolder = `${__dirname}/../templates/connected`;
-
-console.log( templateFolder );
-
 const prog = require( 'commander' )
     .arguments( '<component-name>' )
     .option( '-t, --target <target>', 'Create component into the `target` folder default: `.`', '.' )
