@@ -1,0 +1,23 @@
+{
+  "name": "react-redux-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "rr": "./index.js"
+  },
+  "engines": {
+    "node": ">= 6.9.0",
+    "npm": ">= 3.0.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.12.2",
+    "lodash": "^4.17.4",
+    "snake-case": "^2.1.0"
+  }
+}
