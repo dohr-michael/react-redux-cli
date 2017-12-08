@@ -1,6 +1,6 @@
 {
-  "name": "@dohrm/react-redux-cli",
-  "version": "1.0.4",
+  "name": "ts-react-redux-cli",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
   "scripts": {
