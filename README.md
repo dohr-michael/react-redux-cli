@@ -19,7 +19,7 @@ When you're using this cli, I suppose than you have this folder architecture :
 Install
 -------
 
-`npm install ts-react-redux-cli`
+`npm install -g ts-react-redux-cli`
 
 
 Peer Dependencies
