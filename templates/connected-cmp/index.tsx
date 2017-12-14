@@ -9,7 +9,6 @@ import * as actions from '../../actions';
 type $CMP$Props = {};
 
 const mapStateToProps = ( store: Stores, props: $CMP$Props ) => ({});
-
 const mapDispatchToProps = ( dispatch: Dispatch<any>, props: $CMP$Props ) => ({});
 
 
